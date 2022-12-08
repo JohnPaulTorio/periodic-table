@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    zoom: 75%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    color: white;
+    background-color: black;
+}
+
+.heading h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.sample-guide {
+    border: 1px solid white;
+    position: absolute;
+    padding: 1rem;
+    margin-left: 18%;
+}
+
+.category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5rem;
+    position: absolute;
+    margin-left: 30%;
+    line-height: 30%;
+    cursor: pointer;
+}
+
+
+.table {
+    min-width: 100%;
+}
+
+.table td {
+    border: 1px solid;
+    empty-cells: hide;
+    line-height: 100%;
+    cursor: pointer;
+}
+
+.table p {
+    margin: 0;
+    padding: 0;
+}
+
+.table h1 {
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    line-height: 130%;
+
+}
+
+.name, .atomic_mass {
+    font-weight: 700;
+    text-align: center;
+}
